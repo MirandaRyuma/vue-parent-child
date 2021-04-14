@@ -1,5 +1,6 @@
 <template>
   <HeaderComponent/>
+  <Hinweis/>
   
   <!--
   <div id="nav">
@@ -18,10 +19,12 @@
 
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
+import Hinweis from "./components/Hinweis.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 export default {
   name: "App",
   components: {
+    Hinweis: Hinweis,
     HeaderComponent: HeaderComponent,
     FooterComponent: FooterComponent
   },
