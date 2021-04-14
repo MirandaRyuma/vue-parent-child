@@ -1,6 +1,6 @@
 <template>
   <HeaderComponent/>
-  <Hinweis/>
+  <Hinweis text="Hallo"/>
   
   <!--
   <div id="nav">
