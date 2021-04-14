@@ -24,8 +24,8 @@ import FooterComponent from "./components/FooterComponent.vue";
 export default {
   name: "App",
   components: {
-    Hinweis: Hinweis,
     HeaderComponent: HeaderComponent,
+    Hinweis: Hinweis,
     FooterComponent: FooterComponent
   },
   beforeCreate() {
